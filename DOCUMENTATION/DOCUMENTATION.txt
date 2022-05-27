@@ -1,0 +1,35 @@
+﻿DOCUMENTATION
+NAME: SAMUEL CHIDIEBUBE CHIEMELA
+ID NO:2117053
+LECTURER: Prof. DIMITAR KARAMFILOV
+
+This project is my final task for Developing software systems 1. To run this project, the individual should change the connection string in the appsettings.json file to his/her connection string. Also Note that I use a Macbook and my management studio is Azure Data Studio, so the connection string format may differ.
+
+PS: The Authentication page was quite difficult to implement so I did not.  :(
+
+Project consists of the following pages:
+(1). Players
+(2). Teams
+(3). Leagues
+(4). Player_League (Matches)
+
+Each page is accessible and has the following functions: Create, Edit, View and Delete.
+
+Player Page
+This page shows the list of all players by first and last name. It also includes the players Jersey number and what team they play for.
+You can as well create, edit, view or delete a new player and insert the players parameters. Attributes of the players are null, so in case you do not have all the information about the new player, you can still create him/her.
+For the Picture, Please copy the image address from the internet and insert in the field for picture–in case you want to display his/her picture as well.
+
+ Team Page
+This page shows the list of all teams as well as the year in which they were created.
+You can as well create, edit, view or delete a new team and insert the teams parameters. Attributes are null, in case the user does not know all the information about a team, such field could be left empty.
+For the Team Logo, Please copy the image address from the internet and insert in the field for picture–in case you want to display his/her picture as well.
+
+
+League Page
+This page shows the list of all leagues as well as the name of their Cup.
+You can as well create a new league and insert parameters. Attributes are null, in case the user does not know all the information about a league, such field could be left empty.
+
+Player_League (Matches)
+This page shows the relationship between the players and leagues they play for.
+
